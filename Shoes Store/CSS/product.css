@@ -1,0 +1,151 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;  
+    text-transform: capitalize;
+    transition:all 0.2s linear;
+    
+}
+
+html{   
+    
+    font-size: 80%;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+ .menu nav{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+ .menu nav .logo{
+    font-size: 2rem;
+    color:var(--black);
+    padding-right: 3rem;
+}
+
+ .menu nav a{
+    font-size: 1.5rem;
+    color:var(--black);
+    margin: 0 1rem;
+}
+
+.menu nav ul li a{
+    color: #fff;
+    border-radius: 2rem;
+    
+}
+
+.menu ul li a:hover{
+    background: orange;
+}
+
+.menu .icon a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.menu .icon a:hover{
+    color: orange;
+    transform: scale(1.5);
+}
+
+.search-bar input{
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+
+}
+
+.search-bar a{
+    font-size: 20px;
+    color: black;
+}
+
+.search-bar a:hover{
+    text-decoration: none;
+    outline: none;
+    color: #E9B824;
+}
+
+
+
+.container .row .img{
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: 25px;
+    
+    
+}
+
+.container .row .img:hover{
+    transform: scale(1.02);
+    
+}
+
+.container .row h2,p{
+    text-align: center;
+    
+}
+
+
+.container .row .btn-add-to-cart{
+    border: 1px solid #E9B824;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #E9B824;
+    text-decoration: none;
+    outline: none;
+    transition: .2s linear;
+    margin-left: 31%;
+}
+
+
+.container .row .btn-add-to-cart:hover{
+    background: #E9B824;
+    color: white;
+}
+
+.container .row .page-number a{
+    text-decoration: none;
+    outline: none;
+    padding: 5px;
+}
+
+.page-number{
+    display: flex;
+    justify-content: center;
+}
+
+.page-number a{
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+}
+
+
+.page-number a:hover{
+    color: #E9B824;
+}
+

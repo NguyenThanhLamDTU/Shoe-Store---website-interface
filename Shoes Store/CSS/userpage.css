@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600&display=swap');
+*{
+    font-family: 'Sen', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;  
+    text-transform: capitalize;
+    transition:all 0.2s linear;
+    font-size: 20px;
+    
+}
+
+html{   
+    
+    font-size: 80%;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.menu nav{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+ .menu nav .logo{
+    font-size: 2rem;
+    color:var(--black);
+    padding-right: 3rem;
+}
+
+ .menu nav a{
+    font-size: 1.5rem;
+    color:var(--black);
+    margin: 0 1rem;
+}
+
+.menu nav ul li a{
+    color: #fff;
+    border-radius: 2rem;
+    
+}
+
+.menu ul li a:hover{
+    background: orange;
+}
+
+.menu .icon a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.menu .icon a:hover{
+    color: orange;
+    transform: scale(1.5);
+}
+
+.container{
+    margin-top: 6%;
+}
+
+.upload-img label{
+    border: 1px solid #E9B824;
+    color: #E9B824;
+    transition: .2s linear;
+}
+
+.upload-img label:hover{
+    background: #E9B824;
+    border: none;
+    color: white;
+}
+
+.container .list-group .active{
+    background: orange;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+.btn-active  .btn-primary{
+    background: white;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid #E9B824;
+    color: #E9B824;
+    transition: .2s linear;
+}
+
+.btn-active  .btn-primary:hover{
+    border: none;
+    background: #E9B824;
+    color: white;
+}
+

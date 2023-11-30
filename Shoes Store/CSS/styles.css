@@ -1,0 +1,293 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;  
+    text-transform: capitalize;
+    transition:all 0.2s linear;
+    
+}
+
+html{   
+    
+    font-size: 80%;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+ .menu nav{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+ .menu nav .logo{
+    font-size: 2rem;
+    color:var(--black);
+    padding-right: 3rem;
+}
+
+ .menu nav a{
+    font-size: 1.5rem;
+    color:var(--black);
+    margin: 0 1rem;
+}
+
+.menu nav ul li a{
+    color: #fff;
+    border-radius: 2rem;
+    
+}
+
+.menu ul li a:hover{
+    background: orange;
+}
+
+.menu .icon a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.menu .icon a:hover{
+    color: orange;
+    transform: scale(1.5);
+}
+
+.container .row .img{
+    border: 0.5px solid rgba(128, 128, 128, 0.333);
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: 25px;
+    
+    
+}
+
+.container .row .img:hover{
+    transform: scale(1.02);
+    
+}
+
+.container .row h2,p{
+    text-align: center;
+    
+}
+
+
+.container .row .btn-add-to-cart{
+    border: 1px solid #E9B824;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #E9B824;
+    text-decoration: none;
+    outline: none;
+    transition: .2s linear;
+    margin-left: 31%;
+}
+
+
+.container .row .btn-add-to-cart:hover{
+    background: #E9B824;
+    color: white;
+}
+
+.container .row .viewmore{
+    padding: 1rem 50%;
+    margin-top: 3rem;
+}
+
+.container .row .viewmore button{
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 10px 20px;
+    border: 1px solid #E9B824;
+    color: #E9B824;
+    transition: 0.2s linear;
+
+}
+.container .row .viewmore button:hover{
+    background: #E9B824;
+    color: #fff;
+}
+
+.container .text-left{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footerimg img{
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding-top: 20px 0;
+    color: #fff;
+}
+
+
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer i {
+    margin-right: 10px;
+}
+
+.footer .list-inline-item {
+    margin-right: 20px;
+}
+
+
+form{
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+form .left{
+    width: 50%;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+.left h3{
+    font-weight: bold;
+    color: #E9B824;
+    font-size: 40px;
+}
+
+.left a{
+    color: #E9B824;
+}
+
+
+.left i{
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 25px 3px;
+    border-radius: 50%;
+    transition: 0.2s linear;
+    border: 1px solid #E9B824;
+}
+
+.left i:hover{
+    color: #E9B824;
+    transform: scale(1.25);
+    
+}
+
+
+.left .txt{
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding: 25px;
+    color: grey;
+    background: rgba(196, 196, 196, 0.597);
+    font-size: 22px;
+    border-radius: 1px;
+    border: none;
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1); */
+    
+
+}
+
+.left .btn{
+    font-size: 25px;
+    padding: 5px 20px;    
+    border-radius: 30px;
+    border: 1px solid #E9B824;
+    color: #E9B824;
+    cursor: pointer;  /*biến con trỏ thành hình bàn tay*/
+    transition: 0.2s linear;
+}
+
+.left .btn:hover{
+    color: white;
+    background: rgb(255, 166, 0);
+}
+
+form .right{
+    width: 50%;
+    height: auto;
+    padding: 30px 10px;
+    color: white;
+    text-align: center;
+    background-color: #E9B824;
+
+}
+
+.right h3{
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.right p{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right .btn{
+    font-size: 25px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    cursor: pointer; 
+    border: 1px solid white;
+    color: #fff;
+    margin-top: 20px;
+    transition:  0.2s linear;
+}
+
+.right .btn:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
